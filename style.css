@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 1px 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Logo{
+    color: orange;
+    text-align: center;
+    padding: 7px;
+    font-size: 1.5em;
+    letter-spacing: 0.07em;
+}
+
+body{
+    height: 100%;
+    background: linear-gradient(60deg, #FAA644, #FBCB4D);
+    background-attachment: fixed;
+    
+}
+
+header{
+    background-color:#1d1e20;
+    border-radius: 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+}
+
+.borda{
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 5px 60px;
+}
+
+.links a{  
+    position: relative;
+    color: black;
+    text-decoration: none;
+    background: linear-gradient(60deg, #FAA644, #FBCB4D);
+}
+
+.borda:hover{
+    letter-spacing: 0.1em;
+}
+
+.borda::before{
+    content: '';
+    position: absolute;
+    inset: 2px;
+
+}
+
+main{
+    background: linear-gradient(60deg, #FAA644, #FBCB4D);
+    text-align: center;
+    border: 1.8px solid black;
+    border-radius: 10px;
+    width: 80%;
+    background: white;
+    
+}
+
+.texto{
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner img{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #1d1e20;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.conteiner p{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.conteiner ul{
+    text-align: left;
+    list-style-type: none;
+}
+
+.estrutura{
+    width: 60%;
+    margin-left: 180px;
+    margin-top: 30px;
+    
+}
+
+.mais{
+    display: flex;
+    text-align: left;
+
+}
+
+.mais ul{
+    list-style-type: none;
+}
+
+.lol img{
+    width: 50px;
+    height: 50px;
+}
+
+.tft{
+    
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.att{
+    list-style-type:none;
+    text-align: left;
+    width: 60%;
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.at li{
+    margin-top: 12px;
+
+}
+
+.compss img{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border: 2px solid blueviolet;
+    background: black;
+    border-radius: 10px;
+    width: 60%;
+}
+
+footer{
+    background: #1d1e20;
+    border-radius: 10px;
+    color: white;
+}
+
+.builder{
+    text-decoration: none;
+    background-color: blueviolet;
+    border:2px solid #1d1e20;
+    border-radius: 10px;
+    color: black;
+}
+
+.final ul{
+    list-style-type: none;
+}
